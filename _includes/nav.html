@@ -17,6 +17,7 @@
                 <li>
                     <a class="navbar-brand" href="{{ site.homeurl }}/">Home</a>
                     <a class="navbar-brand" href="{{ site.baseurl }}/">Blog</a>
+                    <a class="navbar-brand" href="{{ "/feed.xml" | prepend: site.baseurl }}">Rss</a>
                 </li>
                 {% for page in site.pages %}{% if page.title %}
 				{% if page.url != '/404.html' %}
