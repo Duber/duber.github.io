@@ -47,7 +47,8 @@ nav ul li {
   width: 100%;
 }
 .navbar-custom {
-  background: white;
+  background: transparent;
+  border-bottom: 1px solid transparent;
   position: absolute;
   top: 0;
   left: 0;
@@ -59,6 +60,7 @@ nav ul li {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
+  color: white;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: normal;
@@ -71,7 +73,6 @@ nav ul li {
   }
   .navbar-custom .navbar-brand {
     color: white;
-    padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -146,7 +147,7 @@ nav ul li {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 150px 0 50px;
+  padding: 100px 0 80px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
@@ -163,7 +164,7 @@ nav ul li {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 75px;
+  font-size: 50px;
   font-weight: normal;
 }
 .intro-header .site-heading .subheading,
@@ -276,56 +277,6 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
-}
-.floating-label-form-group {
-  font-size: 14px;
-  position: relative;
-  margin-bottom: 0;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee;
-}
-.floating-label-form-group input,
-.floating-label-form-group textarea {
-  z-index: 1;
-  position: relative;
-  padding-right: 0;
-  padding-left: 0;
-  border: none;
-  border-radius: 0;
-  font-size: 1.5em;
-  background: none;
-  box-shadow: none !important;
-  resize: none;
-}
-.floating-label-form-group label {
-  display: block;
-  z-index: 0;
-  position: relative;
-  top: 2em;
-  margin: 0;
-  font-size: 0.85em;
-  line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
-  opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
-}
-.floating-label-form-group::not(:first-child) {
-  padding-left: 14px;
-  border-left: 1px solid #eeeeee;
-}
-.floating-label-form-group-with-value label {
-  top: 0;
-  opacity: 1;
-}
-.floating-label-form-group-with-focus label {
-  color: #0085a1;
-}
-form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #eeeeee;
 }
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
