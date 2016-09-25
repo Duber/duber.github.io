@@ -10,6 +10,6 @@ In Azure, if you want to prevent a web app's webjobs from running at any cost, y
 
 <blockquote>WEBJOBS_STOPPED = 1</blockquote>
 
-Keep in mind that, otherwise, webjobs may run even when the app is stopped.
+Keep in mind that, otherwise, webjobs may run even when the app is stopped. With this setting they won't work even if you run them manually.
 
 Where does this magic come from ? From kudu's documentation: [link](https://github.com/projectkudu/kudu/wiki/Web-Jobs){: target="_blank" }
