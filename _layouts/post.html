@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <!-- Post Header -->
@@ -20,15 +21,14 @@ layout: default
 </header>
 
 <!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-				{{ content }}
-
-                <hr>
-
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <article>
+			{{ content }}
+            </article>
+            <hr>
+            <nav>
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -41,10 +41,8 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-
-            </div>
+            </nav>
+            {% include comments.html %}
         </div>
     </div>
-</article>
-
-<hr>
+</div>
