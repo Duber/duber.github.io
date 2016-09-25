@@ -6,8 +6,10 @@ date:       2016-09-23 22:00:00
 author:     "Start Bootstrap"
 ---
 
-<p>In Azure, if you want to prevent a web app's webjobs from running at any cost, you can add the following app setting to your website:</p>
+In Azure, if you want to prevent a web app's webjobs from running at any cost, you can add the following app setting to your website:
 
 <blockquote>WEBJOBS_STOPPED = 1</blockquote>
 
-<p>Keep in mind that, otherwise, webjobs may run even when the app is stopped.</p>
+Keep in mind that, otherwise, webjobs may run even when the app is stopped.
+
+Where does this magic come from ? From kudu's documentation: [link](https://github.com/projectkudu/kudu/wiki/Web-Jobs){: target="_blank" }
