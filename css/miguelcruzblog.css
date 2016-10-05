@@ -10,14 +10,16 @@ p {
 p a {
   text-decoration: underline;
 }
+blockquote p {
+  margin: 0;
+}
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
+}
+h3 {
+  font-weight: 600;
 }
 a {
   color: #404040;
