@@ -7,10 +7,9 @@ author:     "Miguel Cruz"
 ---
 Software Craftsmanship Barcelona 2016 (SCBCN16) has taken place this past weekend and I thought it would be interesting to throw some numbers about the event:
 
-### {% increment index %}. Organizers paid their ticket
-Hopefully at some point this won't be necessary.
-### {% increment index %}. Speakers paid their tickets
-I don't know any other event where this happens.
+### {% increment index %}. Organizers and speakers paid their ticket
+I don't know any other event where this happens. Hopefully at some point this won't be necessary.
+
 ### {% increment index %}. We had 84 attendees
 
 ### {% increment index %}. We had 25 speakers

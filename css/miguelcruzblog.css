@@ -48,6 +48,9 @@ nav ul {
 nav ul li {
   width: 100%;
 }
+nav .pager {
+  margin-top: 2em;
+}
 .navbar-custom {
   background: transparent;
   border-bottom: 1px solid transparent;
@@ -354,4 +357,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+#disqus_thread {
+  margin-top: 2em;
 }
