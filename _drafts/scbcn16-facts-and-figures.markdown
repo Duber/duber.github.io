@@ -56,15 +56,20 @@ This year we renewed the website and moved from [wordpress](https://wordpress.co
 On a funny note, most of the work was made by [Carlos](https://github.com/carlosb1), who didn't have much experience on web development. So kudos to him for that :)
 
 ### {% assign index = index | plus:1 %}{{ index }}. T-shirts
-The first edition of SCBCN had a t-shirt that, although very basic (just some words on the back) I had envy all these years :3
-<br/>Finally, this edition we managed
+The first edition of SCBCN had a t-shirt that, although very basic (just some words on the back), I had envy all these years :3
+<br/>This edition not only we got a t-shirt but we got it for free thanks to a sponsor.
 
-They were designed by [Laura](https://www.linkedin.com/in/laurapolls). She made 3 models, from which we picked the
+They were generously designed by [Laura](https://www.linkedin.com/in/laurapolls), who made 3 prototypes:
+1.
+2.
+3.
 
-We fucked up with t-shirts
-We noticed while during printing and had to reprint some of them.
+From which we picked the third one:
 
-We plan to give away extra t-shirts on local events. Do you fancy one ?
+The anecdote occurred during the printing, when we noticed a terrible yet typical mistake in the spelling of <i>Craftmanship</i> instead of <i>Craftsmanship</i>.
+We ended up reprinting those.
+
+Finally, we plan on giving away extra t-shirts on local events. Do you fancy one ?
 
 ### {% assign index = index | plus:1 %}{{ index }}. Sponsors
 It was the first year with sponsors
