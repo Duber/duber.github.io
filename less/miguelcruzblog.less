@@ -19,14 +19,17 @@ p {
 	}
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+blockquote p, {
+	margin: 0;
+}
+
+h1, h2 {
 	.sans-serif;
 	font-weight: 800;
+}
+
+h3 {
+	font-weight: 600;
 }
 
 a {
@@ -64,6 +67,9 @@ nav {
 		li {
 			width: 100%;
 		}
+	}
+	.pager{
+		margin-top: 2em;
 	}
 }
 
@@ -411,4 +417,8 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: @brand-primary;
+}
+
+#disqus_thread {
+	margin-top: 2em;
 }
